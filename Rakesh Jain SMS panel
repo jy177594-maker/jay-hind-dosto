@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#6d28d9">
+<title>Rakesh Jay Hind SMM Panel</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f4f1ff;color:#20143b}
+header{background:linear-gradient(135deg,#4c1d95,#9333ea,#ec4899);color:white;text-align:center;padding:27px 15px}
+header h1{font-size:30px;margin:8px 0}
+header p{margin:8px 0}
+nav{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;background:#281044;padding:13px}
+nav a{color:white;text-decoration:none;font-weight:bold;font-size:14px}
+.hero{text-align:center;padding:36px 16px;background:white}
+.hero h2{font-size:27px;color:#6d28d9}
+.hero p{line-height:1.8}
+.btn{display:inline-block;border:0;border-radius:10px;background:#6d28d9;color:white;padding:12px 17px;text-decoration:none;font-weight:bold;cursor:pointer;margin:5px}
+.green{background:#16a34a}
+main{max-width:950px;margin:auto;padding:15px}
+h2.section-title{text-align:center;color:#6d28d9}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.card{background:white;border-radius:16px;padding:20px;box-shadow:0 5px 18px #28104412}
+.card h3{margin-top:5px;color:#6d28d9}
+.emoji{font-size:35px}
+.card p{line-height:1.7;font-size:14px}
+section{margin:28px 0}
+.steps{line-height:2}
+form{display:grid;gap:12px}
+input,select,textarea{width:100%;padding:13px;border:1px solid #d6c9ed;border-radius:9px;font-size:16px;background:white}
+footer{text-align:center;background:#281044;color:white;padding:24px 12px;line-height:1.8}
+.note{font-size:13px;color:#5b526b;line-height:1.7}
+</style>
+</head>
+<body>
+
+<header>
+  <div style="font-size:42px">🚀📱</div>
+  <h1>Rakesh Jay Hind SMM Panel</h1>
+  <p>आपके सोशल मीडिया की ग्रोथ का साथी 🇮🇳</p>
+</header>
+
+<nav>
+  <a href="#services">सर्विस</a>
+  <a href="#how">कैसे ऑर्डर करें</a>
+  <a href="#order">ऑर्डर</a>
+  <a href="#contact">संपर्क</a>
+</nav>
+
+<div class="hero">
+  <h2>अपने सोशल मीडिया को आगे बढ़ाएँ!</h2>
+  <p>Instagram, Facebook और YouTube के लिए प्रोफेशनल डिजिटल सेवाएँ।<br>
+  कंटेंट, वीडियो और प्रमोशन—सब एक जगह।</p>
+  <a class="btn green" href="#order">📩 ऑर्डर शुरू करें</a>
+  <a class="btn" href="#services">सर्विस देखें</a>
+</div>
+
+<main>
+<section id="services">
+  <h2 class="section-title">✨ हमारी सर्विस</h2>
+  <div class="grid">
+    <article class="card">
+      <div class="emoji">📸</div>
+      <h3>Instagram Services</h3>
+      <p>रील एडिटिंग, पोस्ट डिज़ाइन, कैप्शन, हैशटैग रिसर्च और ऑर्गेनिक ग्रोथ प्लान।</p>
+      <button class="btn" onclick="choose('Instagram Services')">ऑर्डर करें</button>
+    </article>
+
+    <article class="card">
+      <div class="emoji">📘</div>
+      <h3>Facebook Services</h3>
+      <p>पेज सेटअप, कंटेंट प्लानिंग, पोस्ट डिज़ाइन और विज्ञापन अभियान की सहायता।</p>
+      <button class="btn" onclick="choose('Facebook Services')">ऑर्डर करें</button>
+    </article>
+
+    <article class="card">
+      <div class="emoji">▶️</div>
+      <h3>YouTube Services</h3>
+      <p>वीडियो एडिटिंग, आकर्षक थंबनेल, टाइटल, SEO और चैनल सुधार की सहायता।</p>
+      <button class="btn" onclick="choose('YouTube Services')">ऑर्डर करें</button>
+    </article>
+
+    <article class="card">
+      <div class="emoji">🎬</div>
+      <h3>Video Editing</h3>
+      <p>शॉर्ट वीडियो, रील्स, ट्रांज़िशन, टेक्स्ट और आकर्षक वीडियो तैयार करवाएँ।</p>
+      <button class="btn" onclick="choose('Video Editing')">ऑर्डर करें</button>
+    </article>
+
+    <article class="card">
+      <div class="emoji">📢</div>
+      <h3>Content Promotion</h3>
+      <p>वास्तविक दर्शकों तक पहुँचने के लिए कंटेंट रणनीति और विज्ञापन सेटअप।</p>
+      <button class="btn" onclick="choose('Content Promotion')">ऑर्डर करें</button>
+    </article>
+
+    <article class="card">
+      <div class="emoji">📊</div>
+      <h3>Social Media Management</h3>
+      <p>कंटेंट कैलेंडर, पोस्टिंग प्लान और अकाउंट प्रदर्शन समझने में मदद।</p>
+      <button class="btn" onclick="choose('Social Media Management')">ऑर्डर करें</button>
+    </article>
+  </div>
+</section>
+
+<section id="how" class="card">
+  <h2>🛒 ऑर्डर कैसे करें?</h2>
+  <ol class="steps">
+    <li>अपनी पसंद की सर्विस चुनें।</li>
+    <li>नीचे ऑर्डर फॉर्म भरें।</li>
+    <li>WhatsApp पर अपना अनुरोध भेजें।</li>
+    <li>कीमत, समय और काम की शर्तें तय करें।</li>
+  </ol>
+  <p class="note">हम आपका सोशल मीडिया पासवर्ड नहीं माँगते। विज्ञापन या अकाउंट एक्सेस की जरूरत हो तो सुरक्षित आधिकारिक तरीके इस्तेमाल करें।</p>
+</section>
+
+<section id="order" class="card">
+  <h2>📝 सर्विस ऑर्डर फॉर्म</h2>
+  <form id="orderForm">
+    <label>आपका नाम
+      <input id="customer" required placeholder="अपना नाम लिखें">
+    </label>
+    <label>सर्विस चुनें
+      <select id="service" required>
+        <option value="">सर्विस चुनें</option>
+        <option>Instagram Services</option>
+        <option>Facebook Services</option>
+        <option>YouTube Services</option>
+        <option>Video Editing</option>
+        <option>Content Promotion</option>
+        <option>Social Media Management</option>
+      </select>
+    </label>
+    <label>प्रोफाइल या वीडियो का लिंक (वैकल्पिक)
+      <input id="profile" type="url" placeholder="https://...">
+    </label>
+    <label>आपको क्या काम चाहिए?
+      <textarea id="details" rows="3" required placeholder="अपनी जरूरत लिखें"></textarea>
+    </label>
+    <button class="btn green" type="submit">WhatsApp पर ऑर्डर भेजें</button>
+  </form>
+  <p class="note">ऑर्डर भेजने से पहले WhatsApp में संदेश जाँच सकते हैं। वेबसाइट पर अभी ऑनलाइन भुगतान शामिल नहीं है।</p>
+</section>
+
+<section id="contact" class="card" style="text-align:center">
+  <h2>📞 संपर्क करें</h2>
+  <p>Rakesh Jay Hind SMM Panel</p>
+  <p>सर्विस और कीमत जानने के लिए WhatsApp पर संपर्क करें।</p>
+  <a class="btn green" href="#" onclick="contactWhatsApp();return false">WhatsApp से संपर्क करें</a>
+</section>
+</main>
+
+<footer>
+  <strong>Rakesh Jay Hind SMM Panel 🇮🇳</strong><br>
+  आपकी डिजिटल ग्रोथ, हमारी प्राथमिकता।<br>
+  <small>© <span id="year"></span> Rakesh Jay Hind SMM Panel</small>
+</footer>
+
+<script>
+/* अपना WhatsApp नंबर यहाँ डालें: देश के कोड सहित, केवल अंक।
+   उदाहरण: भारत के लिए 91 के बाद मोबाइल नंबर। */
+const WHATSAPP_NUMBER = "91XXXXXXXXXX";
+
+function openWhatsApp(message){
+  if(!/^91\d{10}$/.test(WHATSAPP_NUMBER)){
+    alert("पहले कोड में WHATSAPP_NUMBER की जगह अपना 10 अंकों का भारतीय नंबर 91 के साथ डालें।");
+    return;
+  }
+  const url="https://wa.me/"+WHATSAPP_NUMBER+"?text="+encodeURIComponent(message);
+  window.open(url,"_blank");
+}
+function choose(name){
+  document.getElementById("service").value=name;
+  document.getElementById("order").scrollIntoView({behavior:"smooth"});
+}
+function contactWhatsApp(){
+  openWhatsApp("नमस्ते, मुझे Rakesh Jay Hind SMM Panel की सर्विस और कीमतों की जानकारी चाहिए।");
+}
+document.getElementById("orderForm").addEventListener("submit",function(e){
+  e.preventDefault();
+  const name=document.getElementById("customer").value.trim();
+  const service=document.getElementById("service").value;
+  const profile=document.getElementById("profile").value.trim();
+  const details=document.getElementById("details").value.trim();
+  const message="नया सर्विस अनुरोध\n"+
+    "नाम: "+name+"\n"+
+    "सर्विस: "+service+"\n"+
+    "प्रोफाइल लिंक: "+(profile||"नहीं दिया")+"\n"+
+    "काम: "+details;
+  openWhatsApp(message);
+});
+document.getElementById("year").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
